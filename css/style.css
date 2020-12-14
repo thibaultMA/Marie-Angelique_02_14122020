@@ -1,28 +1,6 @@
-body{width: auto;
-    margin: 0%;
-    font-size: 1.2em;
+body{
+    background-color: rgb(20, 167, 98);
 }
-nav{
-    padding-right: 50px;
-    padding-left: 50px;
-    line-height:85px;
-    display: flex;
-    justify-content: space-between;
-   
-   
-}
-.logo{
-    width: 170px;
-}
-div{
-    display: inline-flex;
-}
-a{
-     padding: 15px;
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-    border-top: solid #0065FC;
-    color: #0065FC;
+h1{
+    color: red;
 }
