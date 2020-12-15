@@ -1,28 +1,122 @@
 body{width: auto;
     margin: 0%;
-    font-size: 1.2em;
-}
-nav{
-    padding-right: 50px;
+    font-size: 1.1em;
+    padding-right: 70px;
     padding-left: 50px;
-    line-height:85px;
-    display: flex;
-    justify-content: space-between;
-   
-   
-}
-.logo{
-    width: 170px;
-}
-div{
-    display: inline-flex;
 }
 a{
-     padding: 15px;
     text-decoration: none;
     color: black;
 }
-a:hover{
-    border-top: solid #0065FC;
+/* header */
+nav{    
+    line-height:85px;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 170px;
+}
+nav div{
+    display: inline-flex;
+}
+nav a{
+     padding: 15px;
+}
+nav a:hover{
+    border-top: solid 2px #0065FC ;
     color: #0065FC;
+}
+/*main*/
+/* champ de recherche */
+.champ-recherche{
+    width:600px;
+    display: inline-flex;
+   
+}
+.champ-recherche .picto-map{
+    flex: 0.4;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.champ-recherche img{
+    width: 12px;
+}
+.champ-recherche .ville{
+    flex: 2;
+}
+.ville input{
+    border: 1px solid  #F2F2F2 ;
+    height:50px;
+    width: 100%;
+    padding-left: 30px;
+}
+.ville input:focus{
+outline: solid #d6d4d4;
+}
+.champ-recherche .btn{
+    margin-left: 36px;
+flex: 1;
+}
+
+.btn input{
+    background:#0065FC;
+    color: #fff;
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+            /*filtres */
+.filtres{
+    height: 80px;
+    display: inline-flex; 
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 60%;
+}
+.filtres a.type-filtre{   
+    height: auto;
+    border:1px solid #bdbdbd;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filtres img{
+    padding: 14px;
+    border-radius: 50px;
+    background: #DEEBFF;
+    height: 35px;
+    color:#0065fc ;
+}
+a.type-filtre:hover{
+    background-color: #DEEBFF;
+}
+a.type-filtre:hover img{
+    background: #FFF;
+}
+.filtres strong{
+    padding: 20px;
+}
+/* info nb logements */
+.nb-log{
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nb-log img{
+    margin-right: 20px;
+    padding: 5px 10px 5px 10px;
+    height:15px;
+    border:solid  #F2F2F2 ;
+    border-radius: 20px;
 }
