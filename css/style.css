@@ -20,10 +20,10 @@ nav .logo{
 nav div{
     display: inline-flex;
 }
-nav a{
+.encre a{
      padding: 15px;
 }
-nav a:hover{
+.encre a:hover{
     border-top: solid 2px #0065FC ;
     color: #0065FC;
 }
@@ -79,11 +79,12 @@ flex: 1;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-    width: 60%;
+    width: 70%;
 }
 .filtres a.type-filtre{   
+    margin-right: 20px;
     height: auto;
-    border:1px solid #bdbdbd;
+    border:1px solid #d9d9d9;
     border-radius: 35px;
     display: flex;
     justify-content: space-around;
@@ -120,3 +121,38 @@ a.type-filtre:hover img{
     border:solid  #F2F2F2 ;
     border-radius: 20px;
 }
+/* #hebergement */
+#hebergement{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#hebergement div{
+    background-color: #F2F2F2;
+    padding: 30px;
+    border-radius: 30px;
+}
+#hebergement img{
+    height: 150px;
+}
+/* .hebergement */
+.hebergement{
+    width: 50%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.heb{
+width: 100%;
+}
+.hebergement .ann-heb{
+margin: 30px;
+}
+.ann-heb img{
+
+}
+.populaire{
+    width:30%;
+}
+
