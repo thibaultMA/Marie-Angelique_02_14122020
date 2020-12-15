@@ -135,6 +135,8 @@ a.type-filtre:hover img{
 }
 #hebergement img{
     height: 150px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 /* .hebergement */
 .hebergement{
@@ -147,7 +149,10 @@ a.type-filtre:hover img{
 width: 100%;
 }
 .hebergement .ann-heb{
-margin: 30px;
+margin: 20px;
+padding: 5px;
+background-color: #fff;
+border-radius: 30px;
 }
 .ann-heb img{
 
