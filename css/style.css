@@ -37,7 +37,10 @@ section{
     height: auto;
     margin-bottom: 2.8%;
 }
-/* champ de recherche */
+/* #recherche */
+.prez h1{
+    margin-bottom: 5px;
+}
 .champ-recherche{
     width:600px;
     display: inline-flex;
@@ -92,7 +95,7 @@ flex: 1;
     width: 70%;
 }
 .filtres a.type-filtre{   
-    margin-right: 20px;
+    
     height: auto;
     border:1px solid #d9d9d9;
     border-radius: 35px;
@@ -125,6 +128,7 @@ a.type-filtre:hover img{
     align-items: center;
 }
 .nb-log img{
+    background: none;
     margin-right: 20px;
     padding: 5px 10px 5px 10px;
     height:15px;
@@ -143,7 +147,18 @@ a.type-filtre:hover img{
     padding: 30px;
     border-radius: 30px;
 }
-
+#hebergement .ann-heb{
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 3px 9px 6px #dedede;
+}
+.description{
+    margin: 5px 15px 5px 20px;
+}
+.description h4,p{
+    margin: 5px 0px 5px 0px;
+}
 /* .hebergement */
 .hebergement{
     margin-right: 40px;
@@ -154,51 +169,51 @@ a.type-filtre:hover img{
     flex-wrap: wrap;
     justify-content: space-around;
     align-content:space-between;
+    margin-bottom: 20px;
 }
 .heb{
-width: 90%;
-margin:10px 0 10px 0 ;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin:10px 0 10px 0 ;
 }
 .hebergement .ann-heb{
-    padding: 5px;
     margin-bottom: 20px;
     max-width: 31%;
     min-width: 20%;
-    background-color: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 3px 9px 6px #dedede;
-}.hebergement img{
+}
+.hebergement img{
     width: 100%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-.description{
-    margin: 5px 15px 5px 15px;
-}
-.description h4,p{
-    margin: 0px 0px 0px 0px;
-}
+
 
         /* .populaires */
 .populaire{
-    width: 25%;
+    flex: 1;
+    min-width: 30%;
     display:inline-flex;
     flex-wrap: wrap;
-    align-content:flex-start;
+    justify-content: center;
+    align-content:space-around;
 }
 .populaire .ann-heb{
+    max-width: 440px;
+    width: 440px;
+    height: 245px;
     display: inline-flex;
-    margin: 10px 0 10px 0;
-    padding: 5px;
-    background-color: #fff;
-    border-radius: 30px;
-    box-shadow: 0px 3px 9px 6px #dedede;
+    
+    
 }
 .populaire img{
-    height: 150px;
-    width:150px;
+    height: 100%;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+}
+.populaire .description{
+    min-width: 144px;
 }
 .populaire .stat{
     width: 30px;
