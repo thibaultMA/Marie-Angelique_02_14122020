@@ -30,11 +30,11 @@ nav div{
 /*main*/
 main{
     display: flex;
-    flex-direction: column;
+    flex-flow: wrap;
   
 }
 section{
-    height: auto;
+
     margin-bottom: 2.8%;
 }
 /* #recherche */
@@ -89,7 +89,7 @@ flex: 1;
 .filtres{
     display: inline-flex; 
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     align-items: center;
     margin-top: 20px;
     width: 70%;
@@ -140,7 +140,7 @@ a.type-filtre:hover img{
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-flow: wrap;
 }
 #hebergement .hebergement,.populaire{
     background-color: #F2F2F2;
@@ -154,6 +154,8 @@ a.type-filtre:hover img{
     box-shadow: 0px 3px 9px 6px #dedede;
 }
 .description{
+    display: flex;
+    flex-direction: column;
     margin: 5px 15px 5px 20px;
 }
 .description h4,p{
@@ -162,20 +164,19 @@ a.type-filtre:hover img{
 /* .hebergement */
 .hebergement{
     margin-right: 40px;
-    flex: 3;
+    flex:3 ;
     min-width: 777px;
     height: auto;
     display: inline-flex;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     justify-content: space-around;
     align-content:space-between;
     margin-bottom: 20px;
 }
-.heb{
+.titre{
     display: inline-flex;
     align-items: center;
-    justify-content: space-between;
-    width: 90%;
+    width: 100%;
     margin:10px 0 10px 0 ;
 }
 .hebergement .ann-heb{
@@ -195,20 +196,20 @@ a.type-filtre:hover img{
     flex: 1;
     min-width: 30%;
     display:inline-flex;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     justify-content: center;
     align-content:space-around;
 }
 .populaire .ann-heb{
-    max-width: 440px;
-    width: 440px;
+    margin: 10px;
+    max-width: 450px;
     height: 245px;
     display: inline-flex;
     
     
 }
 .populaire img{
-    height: 100%;
+    width: 50%;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
@@ -220,6 +221,7 @@ a.type-filtre:hover img{
     height: 30px;
 }
 .star-b{
+    align-self: baseline;
     align-content: space-between;
 }
 .star-b img{
@@ -229,4 +231,36 @@ a.type-filtre:hover img{
 .star{
     height: 20px;
     display: inline;
+}
+    /* #activité */
+#activite{
+    width: 100%;
+}
+div.lien-act{
+  
+    height: 600Px;
+    display: flex;
+    flex-flow: wrap column;
+    align-content: space-between;
+    justify-content: space-between;
+}
+div.lien-act a{
+    box-shadow: 0px 3px 9px 6px #dedede;
+    border-radius: 30px;
+    width: 21%;
+}
+div.lien-act a img{
+    border-radius: 30px 30PX 0 0;
+    height: auto;
+    width: 100%;
+   
+}
+a.ann-act:first-child,a.ann-act:nth-child(4){
+    height: 100%;
+}
+a.ann-act:first-child,a.ann-act:nth-child(4){
+    height: auto;
+}
+.descript-act{
+    margin-left: 20px;
 }
