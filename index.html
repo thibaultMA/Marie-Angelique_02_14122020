@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Reservia.com</title>
-        <link rel="stylesheet" href="css/style.css" media="screen and (min-width:950px " type="text/css">
-        <link rel="stylesheet" href="css/styl.css" media="handheld and (max-width:949px " type="text/css">
+        <link rel="stylesheet" href="css/screen.css" media="(min-width: 768px) " type="text/css">
+        <link rel="stylesheet" href="css/mobile.css" media="(max-width: 768px) " type="text/css">
 
     </head>
     <body>
@@ -22,7 +22,7 @@
         </header>
         <main>
                         <!-- recherche -->
-            <section class="recherche"> 
+            <article class="recherche"> 
                 <div class="prez">
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>
@@ -38,7 +38,7 @@
                     <div class="btn">
                         <input type="button" value="Rechercher">
                     </div>
-                </div><br>
+                </div>
                                 <!-- filtres -->
                 <div class="filtres">
                     
@@ -68,11 +68,11 @@
                         <p>Plus de 500 logements sont disponible dans cette ville</p>
                     </div>
             
-            </section>
+            </article>
                         <!-- hebergement -->
-            <section id="hebergement">
-                <article class="hebergement">
-                    <h1 class="titre">Hébergements à Marseille</h1>              
+            <div id="hebergement">
+                <section class="hebergement">
+                    <h2 class="titre">Hébergements à Marseille</h2>              
                     <a href="" class="ann-heb">
                         <img src="img/hebergements/3_medium/auberge_cannebiere.jpg" alt="Auberge la Cannebière">
                         <div class="description">
@@ -158,11 +158,11 @@
                         </div>
                     </a>
                     <a href="" style="width: 100%;"> <h3>Afficher plus</h3>                    </a>
-                </article>
+                </section>
                                                         <!-- populaire -->
-                <article class="populaire">
+                <section class="populaire">
                     <div class="titre">
-                        <h1 class="titre" style="width: 80%;">Les plus populaires</h1>
+                        <h2 class="titre" style="width: 80%;">Les plus populaires</h2>
                         <img src="img/icon/chart-line-solid.png" alt="statistique" class="stat">
                     </div>
                     <a href="" class="ann-heb">
@@ -207,12 +207,12 @@
                             </div>
                         </div>
                     </a>
-                </article>
-            </section>
+                </section>
+            </div>
                         <!-- activite -->
-            <section id="activite">
+            <article id="activite">
                 <h1 class="titre">Activités à Marseille</h1>
-                <article class="lien-act">
+                <section class="lien-act">
                     <a href="#" class="ann-act">
                         <img src="img/activites/2_large/vieux-port.jpg" alt="vieux-port">
                         <h3 class="descript-act">Vieux Port</h3>
@@ -237,11 +237,28 @@
                         <img src="img/activites/2_large/parc-longchamp.jpg" alt="parc-longchamp">
                         <h3 class="descript-act">Parc Longchamp</h3>
                     </a>
-                </article>  
-            </section>
+                </section>  
+            </article>
         </main>
-        <footer>
-
+        <footer id="footer">
+            <div class="bottom">
+                <article class="footer-info">
+                    <h3>A propos</h3>
+                    <a href="">Fonctionnement du site</a>
+                    <a href="">conditions générales de vente</a>
+                    <a href="">Données et confinentialité</a>
+                </article>
+                <article class="footer-info">
+                    <h3>Nos hébergements</h3>
+                    <a href="">Charte qualité</a>
+                    <a href="">Soumettre votre Hôtel</a>
+                </article>
+                <article class="footer-info">
+                    <h3>assistance</h3>
+                    <a href="">Centre d'aide</a>
+                    <a href="">Nous contacter</a>
+                </article>
+            </div>
         </footer>
     </body>
 </html>

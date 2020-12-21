@@ -6,19 +6,23 @@ body{
     font-family: "Raleway";
     margin: 0;
     font-size: 1em;
-    padding-right: 70px;
-    padding-left: 50px;
+ 
 }
 a{
     text-decoration: none;
     color: black;
 }
+
 /* header */
 nav{    
+    margin: auto;
     height:120px;
+    max-width: 1920px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-right: 70px;
+    padding-left: 50px;
 }
 nav .logo{
     width: 120px;
@@ -35,6 +39,8 @@ nav div{
 }
 /*main*/
 main{
+    padding-right: 70px;
+    padding-left: 50px;
     margin: auto;
     max-width: 1440PX;
     display: flex;
@@ -154,8 +160,8 @@ a.type-filtre:hover img{
     
 }
 #hebergement .hebergement,.populaire{
-    height:600px ;
-    background-color: #F2F2F2;
+    max-height:600px ;
+    background-color: #f2f2f2;
     padding: 30px;
     border-radius: 30px;
 }
@@ -249,13 +255,13 @@ a.type-filtre:hover img{
 .lien-act a{
     box-shadow: 0px 3px 9px 6px #dedede;
     border-radius: 30px;
-    width: 21%;
-    height: 42%;
+    width: 23%;
+    height: 45%;
 }
 .lien-act a img{
     border-radius: 30px 30px 0 0;
     width: 100%;
-    height: 70%;
+    height: 78%;
     object-fit: cover;
     object-position:center;
    
@@ -269,3 +275,27 @@ a.ann-act:first-child img,a.ann-act:nth-child(4) img{
 .descript-act{
     margin-left: 20px;
 }
+        /* footer */
+footer{
+    height: 160px;
+    background: #f2f2f2;
+    display: flex;
+    /* padding: 0  15%; */
+}
+.bottom{
+    max-width: 1440px;
+    margin: auto;
+    width: 73%;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.footer-info{
+    display:flex;
+    flex-flow: column;
+
+}
+.footer-info a{
+    margin: 5px;
+}
+
