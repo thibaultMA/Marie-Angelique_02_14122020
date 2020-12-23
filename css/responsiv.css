@@ -189,11 +189,8 @@
 }   
 @media (max-width: 376px){
     .nav:first-child,.nav:nth-child(2),.nav:nth-child(3){
-        min-width: 10px;
-    }
-}
-@media (max-width: 321px){
+        min-width: 10px;}
     nav .logo{
-        width: 55%;
-    }
+            width: 55%;
+        }
 }
