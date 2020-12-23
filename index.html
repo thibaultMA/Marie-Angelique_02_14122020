@@ -1,24 +1,19 @@
-<!DOCTYPE html>
 <html lang="FR">
     <head>
         <meta charset="UTF-8">
         <title>Reservia.com</title>
-        <link rel="stylesheet" href="css/screen.css" media="(min-width: 768px) " type="text/css">
-        <link rel="stylesheet" href="css/mobile.css" media="(max-width: 768px) " type="text/css">
-
+        <link rel="stylesheet" href="css/style.css" type="text/css">
     </head>
     <body>
         <header>
             <nav>
-                <a href="index.html">
+                <a href="index.html" class="logo">
                     <img src="img/logo/Reservia@3x.png" class="logo" alt="logo-accueil">
                 </a>
-            	<div class="encre">		
-				    <a href="#hebergement" class="nav">Hébergements</a>
-				    <a href="#activite" class="nav">Activités</a>
-			       <a href="#" class="nav" style="color:#0065FC ;">S'inscrire</a>           
-                </div>
-            </nav>
+				<a class="nav" href="#hebergement" class="nav"><p> Hébergements</p></a>
+				<a class="nav" href="#activite" class="nav"><p> Activités</p></a>               
+                <a class="nav" href="#" class="nav" style="color:#0065FC;"><p> S'inscrire</p></a> 
+             </nav>
         </header>
         <main>
                         <!-- recherche -->
@@ -36,7 +31,10 @@
                         <input type="text" placeholder="Marseille, France" class="imput-ville">
                     </div>
                     <div class="btn">
-                        <input type="button" value="Rechercher">
+                        <button type="button">
+                             <p>recherche</p>
+                             <img src="img/icon/search-solid.png" alt="">
+                        </button>
                     </div>
                 </div>
                                 <!-- filtres -->
