@@ -1,5 +1,37 @@
-    /* 960px */
-    @media (max-width: 960px){   
+             /*1203px*/
+@media (max-width: 1225px){
+    #hebergement{
+        flex-flow: wrap;
+    }
+    .hebergement{
+        order: 2;
+        width: 100%;
+        margin: 0;
+    }
+    .populaire{
+        order: 1;
+        width: 100%;
+        flex-flow: row wrap;
+        height:500px ;
+        margin-bottom: 20px;
+    }
+    .populaire .ann-heb{
+        width: 30%;
+        height:68%;
+        display: flex;
+        flex-flow: column;
+    }
+    .populaire .ann-heb img{
+        width: 100%;
+        height: 60%;
+        border-radius: 30px 30px 0 0;
+    }
+    
+}
+@media (max-width: 960px){  
+    
+    
+
     nav{
         padding: 0;
     }
@@ -22,28 +54,18 @@
     width: 100%; 
     }
             /* hebergement */
-    #hebergement .hebergement,.populaire{
+    #hebergement .hebergement{
         max-height:none;
         height: 750px;
     }
     #hebergement .ann-heb .description{
         margin:  0 0 0 10px;
     }
-    .hebergement{
-        width: 60%;
-    }
     .hebergement .ann-heb{
         width: 46%;
         height: 25%;
     }
-    .populaire{
-        width: 35%;
-        justify-content: flex-start;
-    }
-    .populaire .ann-heb{
-        
-        height: 25%;
-    }
+    
             /* activite */
     #activite{
         height: 1000px;
@@ -68,14 +90,11 @@
         height: 78%;
     }
 }
-            /* 768px */
-@media (max-width: 768px){
-            /* header */
-
+@media (max-width: 941px){
     nav .logo{
         margin: 0 0 0 20px;
     }
-    nav a.nav p{
+    nav a.nav {
         height: 72px;
     }
     nav a.nav:hover{
@@ -89,10 +108,27 @@
     }
     .nav:nth-child(2),.nav:nth-child(3){
         border-bottom: solid 5px #f2f2f2;
+        padding-bottom: 20px;
+        min-width: 50%;
     }
     .nav:nth-child(2):hover,.nav:nth-child(3):hover{
         border-bottom: solid 5px #0065FC;
-        }
+    }
+            /* main */
+    .recherche{
+        padding-top: 20px;
+    }
+    .recherche .prez h1, .recherche .prez p{
+        margin: 10px 0 25px 0;
+    }
+    .recherche .nb-log{
+        margin: 10px 0 10px 0;
+    }
+
+}
+            /* 768px*/
+@media (max-width: 768px){
+            /* header */
 
             /* main */
     main{
@@ -100,7 +136,7 @@
     }
             /* recherche */
     .recherche{
-        padding: 0 0 0 20px;
+        padding: 10px 0 0 20px;
         margin: 0 0 20px 0;
     }
     .champ-recherche{
@@ -125,9 +161,11 @@
     }
     .populaire{
         width: 100%;
+        height: 400px;
     }
+
 }
-            /* 576px */
+            /* 576px*/
 @media (max-width: 576px){
             /* main */
             /* recherche */
@@ -143,11 +181,11 @@
     .champ-recherche .btn{
         flex: 0.5;
     }
-    button p{
-        display: none;
+    .btn button {
+        display: block;
     }
-    .btn button img{
-        display: initial;
+    .btn input{
+        display: none;
     }
             /* hebergement */
         section.populaire{
@@ -166,6 +204,14 @@
     }
     .hebergement .ann-heb img{
         height: 60%;
+    }
+    .populaire{
+        height: 1000px;
+        flex-flow: column;
+    }
+    .populaire .ann-heb{
+        width: 100%;
+        height: 29%;
     }
             /* activite */
     #activite{
@@ -187,10 +233,19 @@
         width: 100%;
     }
 }   
+            /* 376px */
 @media (max-width: 376px){
     .nav:first-child,.nav:nth-child(2),.nav:nth-child(3){
-        min-width: 10px;}
+        min-width: 10%;}
     nav .logo{
-            width: 55%;
+            width: 59%;
         }
+}
+@media (max-width: 359px){
+    .nav:first-child{
+        width: 100%;
+    }
+    nav .logo{
+        width: 50%;
+    }
 }
