@@ -165,6 +165,11 @@
     }
 
 }
+@media (max-width: 615px){
+    .populaire .ann-heb{
+        height:75%;
+    }
+}
             /* 576px*/
 @media (max-width: 576px){
             /* main */
@@ -233,6 +238,21 @@
         width: 100%;
     }
 }   
+@media (max-width: 425px){
+    #hebergement .hebergement , .populaire{
+        padding: 10px;
+    }
+    .hebergement .ann-heb{
+        height: 11%;
+    }
+    .populaire{
+        height: 1180px;
+    }
+    .populaire .ann-heb{
+        margin: 10px;
+        width: 95%;
+    }
+}
             /* 376px */
 @media (max-width: 376px){
     .nav:first-child,.nav:nth-child(2),.nav:nth-child(3){
