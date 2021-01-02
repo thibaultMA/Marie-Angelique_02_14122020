@@ -80,7 +80,7 @@
         flex-flow: column;
         width: 45%;
         height: 24%;
-        margin: 10px;
+        margin: 10px 0 10px 0;
         align-items: center;
     }
     a.ann-act:first-child,a.ann-act:nth-child(4){
@@ -98,8 +98,7 @@
         height: 72px;
     }
     nav a.nav:hover{
-        border: none; 
-        
+        border: none;   
     }
     .nav:first-child ,.nav:nth-child(2),.nav:nth-child(3){
         order: +1;
@@ -195,16 +194,15 @@
             /* hebergement */
         section.populaire{
         border-radius: unset;
-
     }
     #hebergement .hebergement{
         max-height: none;
-        height: 2000px;
+        height: 1800px;
         margin: 0;
         background: #fff;
     }
     .hebergement .ann-heb{
-        width: 100%;
+        width: auto;
         height: 14%;
     }
     .hebergement .ann-heb img{
@@ -215,12 +213,13 @@
         flex-flow: column;
     }
     .populaire .ann-heb{
-        width: 100%;
+        width: auto;
         height: 29%;
     }
             /* activite */
     #activite{
         height: 1700px;
+        padding: 30px;
     }
     .lien-act{
         height: 1600px;
@@ -243,20 +242,20 @@
         padding: 10px;
     }
     .hebergement .ann-heb{
-        height: 11%;
+        height: 14%;
     }
     .populaire{
-        height: 1180px;
+        height: 869px;
+        padding-bottom: 19px;
     }
-    .populaire .ann-heb{
-        margin: 10px;
-        width: 95%;
+    #activite{
+        padding: 10px;
     }
 }
             /* 376px */
 @media (max-width: 376px){
     .nav:first-child,.nav:nth-child(2),.nav:nth-child(3){
-        min-width: 10%;}
+        min-width: 12%;}
     nav .logo{
             width: 59%;
         }
