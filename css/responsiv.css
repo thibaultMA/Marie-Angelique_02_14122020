@@ -1,5 +1,5 @@
              /*1203px*/
-@media (max-width: 1225px){
+@media screen and (max-width: 1225px){
     #hebergement{
         flex-flow: wrap;
     }
@@ -28,7 +28,7 @@
     }
     
 }
-@media (max-width: 960px){  
+@media screen and  (max-width: 960px){  
     
     
 
@@ -90,7 +90,7 @@
         height: 78%;
     }
 }
-@media (max-width: 941px){
+@media screen and  (max-width: 941px){
     nav .logo{
         margin: 0 0 0 20px;
     }
@@ -121,12 +121,12 @@
         margin: 10px 0 25px 0;
     }
     .recherche .nb-log{
-        margin: 10px 0 10px 0;
+        margin: 10px 10px 10px 0;
     }
 
 }
             /* 768px*/
-@media (max-width: 768px){
+@media screen and  (max-width: 768px){
             /* header */
 
             /* main */
@@ -162,15 +162,18 @@
         width: 100%;
         height: 400px;
     }
+    #activite{
+        padding: 30px;
+    }
 
 }
-@media (max-width: 615px){
+@media screen and  (max-width: 615px){
     .populaire .ann-heb{
         height:75%;
     }
 }
             /* 576px*/
-@media (max-width: 576px){
+@media screen and  (max-width: 576px){
             /* main */
             /* recherche */
     .champ-recherche img{
@@ -202,7 +205,7 @@
         background: #fff;
     }
     .hebergement .ann-heb{
-        width: auto;
+        width: 100%;
         height: 14%;
     }
     .hebergement .ann-heb img{
@@ -237,7 +240,7 @@
         width: 100%;
     }
 }   
-@media (max-width: 425px){
+@media screen and  (max-width: 425px){
     #hebergement .hebergement , .populaire{
         padding: 10px;
     }
@@ -253,14 +256,14 @@
     }
 }
             /* 376px */
-@media (max-width: 376px){
+@media screen and  (max-width: 376px){
     .nav:first-child,.nav:nth-child(2),.nav:nth-child(3){
         min-width: 12%;}
     nav .logo{
             width: 59%;
         }
 }
-@media (max-width: 359px){
+@media screen and  (max-width: 359px){
     .nav:first-child{
         width: 100%;
     }
