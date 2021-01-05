@@ -31,6 +31,7 @@ nav .logo img{
     width: 120px;
 }
 nav .nav{
+    border-top: solid 2px #ffffff;
     width: 10%;
      height: auto;
 }
@@ -42,6 +43,9 @@ nav .nav p{display :flex ;
 nav a.nav:hover{
     border-top: solid 2px #0065FC ;
     color: #0065FC;
+}
+nav a.nav:nth-child(4){
+    border: none;
 }
 nav a.nav:nth-child(4):hover{
     border: none;
